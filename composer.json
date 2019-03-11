@@ -1,0 +1,21 @@
+{
+  "name": "gcd/usecases",
+  "description": "Base classes and interfaces for implementing the Use Case pattern along with entities and entity emitting iterators.",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Andrew Cuthbert",
+      "email": "acuthbert@gcdtech.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Gcd\\UseCases\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0.0",
+    "psr/container": "^1.0.0"
+  }
+}
